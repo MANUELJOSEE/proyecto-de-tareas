@@ -32,7 +32,8 @@
                 <input id="Tareas" placeholder="ingresar tareas" type="text">
                 
                 <div class="boton">
-                    <button id="Button" class="button">Agragar</button>
+                    <button id="Button" class="button">Agregar</button>
+                    <!-- <button class="btn-delete"></button> -->
                   <!-- <p id="resultado"></p> -->
                 </div>
 
@@ -44,21 +45,23 @@
 
         <div class="secundario">
             <div>  
-                <p>Tareas por hacer</p>   
+                <h2>Tareas por hacer</h2>   
             </div>
-            <div class="circulo"></div> 
+            <div class="circulo">
+                <span id="numero">0</span>
+            </div> 
 
         </div>
     </div>
 
     <div class="container"> 
-        <ul id="resultado">
-            
-        </ul>
+        <li  id="resultado">
+           
+        </li>
+       
 
     </div>
-
-
+    
 </div>
 <script src="index.js"></script>
 </body>
